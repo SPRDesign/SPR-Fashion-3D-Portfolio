@@ -1,0 +1,173 @@
+<div class="mood-board">
+  <div class="block-1">
+    <img src="/public/images/10.png" />
+  </div>
+  <div class="block-2">
+    <img src="/public/images/14.png" />
+  </div>
+  <div class="block-3">
+    <img src="/public/images/12.png" />
+  </div>
+  <div class="block-4">
+    <img src="/public/images/13.png" />
+  </div>
+  <div class="block-5">
+    <img class="hexagon__logo" src="/public/images/37.png" alt="" />
+  </div>
+  <div class="block-6">
+    <img class="hexagon__logo" src="/public/images/8.png" alt="" />
+  </div>
+  <div class="block-7">
+    <img class="hexagon__logo" src="/public/images/16.png" alt="" />
+  </div>
+
+  <div class="text">
+    <div>
+      3D clothing design has emerged as a revolutionary tool in the fashion
+      industry, transforming the way garments are conceptualized, created, and
+      presented.
+      <br /><br />This technology offers a range of advantages that not only
+      streamline the design process but also elevate the quality and creativity
+      of collections.
+    </div>
+  </div>
+  <div class="hexagon">
+    <div class="hexagon__interior">
+      <img class="hexagon__logo" src="/public/images/6.png" alt="" />
+    </div>
+  </div>
+</div>
+
+<style>
+  :root {
+    --background-color: white;
+    --gap: 0.5rem;
+    --hexagon: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
+
+  body {
+    background-color: var(----background-color);
+    margin: var(--gap);
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .mood-board {
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-areas:
+      "tx tx tx tx tx tx tx b1 b1 b1 b1 b1 b1 b1 "
+      "b2 b2 b2 b2 b2 b2 b2 b1 b1 b1 b1 b1 b1 b1 "
+      " b2 b2 b2 b2 b2 b2 b2 b1 b1 b1 b1 b1 b1 b1 "
+      " b3 b3 b3 b3 b3 b3 b3 b4 b4 b4 b4 b4 c1 c1"
+      " b3 b3 b3 b3 b3 b3 b3 b4 b4 b4 b4 b4 c2 c2"
+      "b3 b3 b3 b3 b3 b3 b3 b4 b4 b4 b4 b4 c3 c3  ";
+    grid-gap: var(--gap);
+    margin-top: 10px;
+  }
+
+  [class^="block-"] > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .block-1 {
+    grid-area: b1;
+  }
+
+  .block-2 {
+    grid-area: b2;
+  }
+
+  .block-3 {
+    grid-area: b3;
+  }
+
+  .block-4 {
+    grid-area: b4;
+  }
+
+  .block-5 {
+    grid-area: c1;
+  }
+
+  .block-6 {
+    grid-area: c2;
+  }
+
+  .block-7 {
+    grid-area: c3;
+  }
+
+  .text {
+    overflow: hidden;
+    background-color: black;
+    grid-area: tx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+    color: white;
+    padding: 25px;
+    font-size: 14px;
+    letter-spacing: 0.125em;
+  }
+
+  .hexagon {
+    background-color: var(--background-color);
+    grid-column: 6 / span 4;
+    grid-row: 3 / span 2;
+    clip-path: var(--hexagon);
+    padding: var(--gap);
+  }
+
+  .hexagon__interior {
+    height: 100%;
+    background-color: black;
+    clip-path: var(--hexagon);
+  }
+
+  .hexagon__logo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .text {
+      font-size: 8px;
+      line-height: 1.2;
+      padding: 0.5rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .text {
+      font-size: 6px;
+      line-height: 1.1;
+      padding: 0.25rem;
+    }
+  }
+  @media (max-width: 1024px) and (min-width: 768px) {
+    .text {
+      font-size: 10px;
+      line-height: 1.2;
+      padding: 0.5rem;
+    }
+  }
+  @media (max-width: 375px) {
+    .text {
+      font-size: 5px;
+      line-height: 1;
+      padding: 0.25rem;
+    }
+  }
+</style>
