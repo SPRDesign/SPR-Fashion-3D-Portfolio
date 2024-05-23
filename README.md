@@ -1,45 +1,23 @@
-# Astro Starter Kit: Minimal
+# SPR 3D Fashion Design
 
-```
-npm create astro@latest -- --template minimal
-```
+Welcome to SPR 3D Fashion Design! 🎨✨ This is the official repository for my portfolio, where I showcase my cutting-edge designs and creations in the world of 3D fashion.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
+## About Me
+At SPR 3D Fashion Design, I combine artistry with technology to bring you a unique and immersive fashion experience. As a designer, I leverage the power of 3D design to create stunning and innovative clothing collections that push the boundaries of creativity.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Features
+- Explore my latest 3D fashion designs and collections.
+- Discover the intersection of fashion and technology.
+- Stay updated with my social media channels:
+  - [Instagram](https://www.instagram.com/sprdesign3d/)
+  - [LinkedIn](https://www.linkedin.com/in/sarapages/)
+  - [GitHub](https://github.com/SPRDesign)
 
-## 🚀 Project Structure
+## Contact Me
+Feel free to reach out via email at [sprdesign3d@gmail.com](mailto:sprdesign3d@gmail.com) for inquiries, collaborations, or any questions you may have.
 
-Inside of your Astro project, you'll see the following folders and files:
+## Get Started
+Visit the website [here](https://sprdesign-fashion3d.netlify.app/) and dive into the future of fashion with SPR 3D Fashion Design!
 
-```
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+I can't wait to inspire you with new creations. Happy exploring! 🚀
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                | Action                                           |
-| :--------------------- | :----------------------------------------------- |
-| `npm install`          | Installs dependencies                            |
-| `npm run dev`          | Starts local dev server at `localhost:3000`      |
-| `npm run build`        | Build your production site to `./dist/`          |
-| `npm run preview`      | Preview your build locally, before deploying     |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
